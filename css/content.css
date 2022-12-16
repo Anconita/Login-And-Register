@@ -1,0 +1,192 @@
+/*
+- Contenedores
+- Contenido
+- password
+- Imagenes
+*/
+
+
+/* CONTENEDORES */
+.Contenedor_Principal {
+  display: flex;
+}
+
+.Contenedor_Izquierda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 80vh;
+
+
+  background-image: radial-gradient(ellipse farthest-corner at 45px 30px, #fff 50%, rgba(0, 255, 0, 0) 0%, #5dade2db 50%);
+  User-select: none;
+
+  box-shadow: 7px 5px 7px 1px rgba(0,0,0,0.47);
+  -webkit-box-shadow: 7px 5px 7px 1px rgba(0,0,0,0.47);
+  -moz-box-shadow: 7px 5px 7px 1px rgba(0,0,0,0.47);
+
+  transition: width 3s, visibility 2s;
+}
+
+.Contenedor_Izquierda h1 {
+  position: absolute;
+
+  margin-bottom: 75vh;
+  margin-right: 25vh;
+  margin-left: 2vh;
+
+  font-size: 55px;
+  color: #2980B9 ;
+
+
+
+}
+.Contenedor_Izquierda span{
+  font-size: 55px;
+  font-weight: bold;
+  color: #2980B9;
+}
+.Contenedor_Izquierda span:last-child{
+  font-size: 65px;
+  font-weight: bold;
+  color: #2980B9;
+  text-decoration: underline;
+}
+
+.Contenedor_Derecha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 100vh;
+  width: 120vh;
+
+}
+
+.Contenedor_Formulario{
+}
+
+.Contenedor_Login{
+
+}
+
+.Contenedor_Login input {
+  width: 350px;
+  font-size: 20px;
+  padding: 25px 0px 3px 10px;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+}
+
+.Contenedor_Login i {
+  color: #999999;
+  font-size: 17px;
+  transition: color .3s;
+}
+
+
+.Contenedor_Login div {
+  text-align: left;
+  
+  border-bottom: 2px solid #ABB2B9;
+  transition: all 0.3s;
+}
+
+.Contenedor_Login button {
+  font-size: 25px;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 325px;
+
+  color: white;
+  background-color: #3498DB;
+
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+
+  box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 1);
+
+  transition: all .4s;
+}
+
+.Contenedor_Login a {
+  font-weight: bold;
+  color: #3498DB;
+
+  transition: color .3s;
+}
+
+/* CONTENIDO */
+.Titulo_Bienvenido {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 45px;
+  font-weight: bold;
+  color: #2b7aafbd;
+}
+
+
+/*PASSWORD*/
+.Visibilidad_Password_Off{
+  cursor: pointer;
+  color: #999999;
+}
+
+#Visibilidad_Password_On{
+  cursor: pointer;
+  color: #3498DB;
+}
+
+/* IMAGENES */
+.Imagen_Formulario {
+  height: 200px;
+  width: auto;
+
+  margin-bottom: 15px;
+  User-select: none;
+}
+
+.Ilustracion {
+  width: 750px;
+  transition: width 3s;
+}
+
+/*HOVERS,ACTIVE,FOCUS,ETC*/
+.Contenedor_Login i:focus-within {
+  color: #3498DB;
+}
+
+.Contenedor_Login div:focus-within {
+  margin-top: 15px;
+  padding: 6px;
+
+  border-bottom: 2px solid #3498DB;
+}
+
+.Visibilidad_Password_Off:hover{
+  color: rgb(44, 125, 179);
+}
+
+#Visibilidad_Password_On:hover{
+  color: #2980B9;
+}
+
+.Contenedor_Login button:hover {
+  background-color: rgb(27, 77, 111);
+}
+
+.Contenedor_Login a:hover {
+  font-weight: bold;
+  color: #2b7aaf;
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1480px) {
+  .Contenedor_Izquierda {
+    visibility: hidden;
+    width: 1vh;
+
+
+  }
+  .Ilustracion{
+    width: 100px;
+  }
+
+  .Contenedor_Derecha{
+    width: 150vh;
+  }
+}
+
+@media screen and (max-width: 415px) {
+ 
+  .Contenedor_Login{
+    width: 250px;
+    font-size: 15px;
+  }
+  
+  .Contenedor_Login input {
+    width: 200px;
+    font-size: 15px;
+  }
+
+  .Imagen_Formulario {
+    height: 100px;
+    width: auto;
+  
+    margin-bottom: 15px;
+    User-select: none;
+  }
+
+  .Titulo_Bienvenido {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    font-size: 30px;
+    font-weight: bold;
+    color: #2b7aafbd;
+  }
+
+  .Contenedor_Login button{
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+
+    margin-top: 40px;
+  }
+
+}
